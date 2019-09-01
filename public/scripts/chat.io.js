@@ -2,7 +2,7 @@
 
 	// create global app parameters...
 	var NICK_MAX_LENGTH = 15,
-		ROOM_MAX_LENGTH = 3,
+		ROOM_MAX_LENGTH = 2,
 		lockShakeAnimation = false,
 		socket = null,
 		clientId = null,
