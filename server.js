@@ -23,7 +23,7 @@ app.use("/images", express.static(__dirname + '/public/images'));
 
 // serving the main applicaion file (index.html)
 // when a client makes a request to the app root
-// (http://localhost:8080/)
+// (http://localhost:3000/)
 app.get('/', function (req, res) {
 	res.sendfile(__dirname + '/public/index.html');
 });
