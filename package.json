@@ -14,10 +14,10 @@
   "author": "seale-mahlo",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "expressjs": "^1.0.1",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.3.0",
+    "ejs": "^3.0.1",
+    "expressjs": "^1.0.1"
   },
   "engines": {
     "node": "10.x"
