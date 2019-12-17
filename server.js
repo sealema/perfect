@@ -5,7 +5,7 @@ var express 	= require('express'),
 	app			= express(),
     server  	= require('http').createServer(app),
     io      	= require('socket.io').listen(server),
-    port    	= process.env.PORT || 3000,
+    port    	= process.env.PORT || 8080,
 
     // hash object to save clients data,
     // { socketid: { clientid, nickname }, socketid: { ... } }
